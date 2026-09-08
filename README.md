@@ -7,7 +7,7 @@
 ---
 
 <details>
-<summary>접기/펼치기</summary>
+<summary>1주차 - 1~4</summary>
 	
 ### Homework1
 ```Java
@@ -122,6 +122,8 @@ public class Main {
 <img width="1627" height="336" alt="image" src="https://github.com/user-attachments/assets/43dca2b3-666f-43b5-aff5-dbae41517753" />
 </details>
 
+<details>
+<summary>2주차 - 5~12</summary>
 ### Homework5
 ```Java
 public class Main {
@@ -185,4 +187,4 @@ public class Main {
 ```
 <img width="1627" height="336" alt="image" src="https://github.com/user-attachments/assets/43dca2b3-666f-43b5-aff5-dbae41517753" />
 
-
+</details>
