@@ -34,8 +34,10 @@ public class Main {
 	}
 }
 ```
+<img width="1627" height="398" alt="image" src="https://github.com/user-attachments/assets/bc892195-3d8b-4261-8928-0986f4c937a0" />
 
-### Homework1
+
+### Homework3
 ```Java
 public class Homework1{
   public static void main(String []args){
@@ -50,7 +52,7 @@ public class Homework1{
 }
 ```
 
-### Homework1
+### Homework4
 ```Java
 public class Homework1{
   public static void main(String []args){
@@ -66,20 +68,22 @@ public class Homework1{
 ```
 
 
-### Homework1
+### Homework5
 ```Java
-public class Homework1{
-  public static void main(String []args){
-    int i, j;
-    for(i=0; i<10; i++) {
-      for(j=0; j<10; j++) {
-        System.out.print("#");
-      }
-      System.out.println("");
-    }
-  }
+public class Main {
+  public static void main(String[] args) {
+    double sum = 0.0;
+    int sign = 1;
+    
+    for (int i = 1; i <= 10000; i+=2) {
+	    sum += sign * (4.0 / i);
+	    sign = -sign;
+		}
+  	System.out.println(sum);
+	}
 }
 ```
+<img width="1627" height="536" alt="image" src="https://github.com/user-attachments/assets/a465afc6-d12e-4c9b-9ef5-3e7e88b0ee3b" />
 
 ### Homework1
 ```Java
