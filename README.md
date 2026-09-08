@@ -1,7 +1,10 @@
 # OOP2026
 
 ## 목차
-[1주차 - 1~4] (Homework1)
+1. [1주차 - 1~4] (#Homework1)
+2. [2주차 - 5~12] (#Homework4)
+
+--
 
 ### Homework1
 ```Java
