@@ -129,11 +129,50 @@ public class Main {
 ```
 <img width="1627" height="536" alt="image" src="https://github.com/user-attachments/assets/a465afc6-d12e-4c9b-9ef5-3e7e88b0ee3b" />
 
-### Homework1
-```Java
 
-```
+### Homework6
+```Java
+public class Main {
+	public static void main(String[] args) {
+    
+		int binomial[][] = new int[10][10];
+        
+        for (int i = 0; i < 10; i++) {
+        	
+        	binomial[i][0] = 1;
+            binomial[i][i] = 1;
+            
+        	for (int j = 1; j < i; j++) {
+            	binomial[i][j] = binomial[i-1][j-1] + binomial[i-1][j];
+            }
+        }
+        
+        for (int i = 0; i < 10; i++) {
+			for (int j = 0; j <= i; j++) {
+            	System.out.print(binomial[i][j] + " ");
+            }
+            System.out.println();
+        }
+	}
 }
 ```
+<img width="1624" height="426" alt="image" src="https://github.com/user-attachments/assets/5cc28b3d-dd71-4463-a4bc-556263c75d69" />
+
+
+### Homework4
+```Java
+public class Main {
+	public static void main(String[] args) {
+    
+		for (int i = 1; i <= 9; i++) {
+			for (int j = 1; j <= 9; j++) {
+				System.out.print(i + "*" + j + "=" + i*j + " ");
+			}
+            System.out.println();
+		}
+	}
+}
+```
+<img width="1627" height="336" alt="image" src="https://github.com/user-attachments/assets/43dca2b3-666f-43b5-aff5-dbae41517753" />
 
 
