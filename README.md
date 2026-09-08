@@ -1,18 +1,51 @@
 # OOP2026
 ### Homework1
 ```Java
-public class Homework1{
-  public static void main(String []args){
-    int i, j;
-    for(i=0; i<10; i++) {
-      for(j=0; j<10; j++) {
-        System.out.print("#");
-      }
-      System.out.println("");
-    }
-  }
+public class Main {
+	public static void main(String []args){
+		int i, j;
+        
+		for(i = 1; i <= 10; i++) {
+			for(j = 1; j <= i; j++) {
+				System.out.print("#");
+			}
+			System.out.println("");
+		}
+		System.out.println("");
+        
+        for (i = 10; i >= 1; i--) {
+        	for (j = 1; j <= i; j++) {
+            	System.out.print("#");
+			}
+            System.out.println();
+		}
+    	System.out.println();
+        
+		for(i = 1; i <= 10; i++) {
+			for(j = 1; j <= 10-i; j++) {
+				System.out.print(" ");
+			}
+			for(j = 1; j <= i; j++) {
+				System.out.print("#");
+			}
+			System.out.println();
+		}
+		System.out.println();
+        
+        for(i = 10; i >= 1; i--) {
+			for(j = 1; j <= 10 - i; j++) {
+				System.out.print(" ");
+			}
+			for(j = 1; j <= i; j++) {
+				System.out.print("#");
+			}
+            System.out.println();
+		}
+		System.out.println();
+	}
 }
 ```
+<img width="1626" height="848" alt="image" src="https://github.com/user-attachments/assets/88a7dbac-691e-40da-8801-5b163be8da5e" />
 
 
 ### Homework2
