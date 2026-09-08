@@ -72,33 +72,44 @@ public class Main {
 
 ### Homework3
 ```Java
-public class Homework1{
-  public static void main(String []args){
-    int i, j;
-    for(i=0; i<10; i++) {
-      for(j=0; j<10; j++) {
-        System.out.print("#");
-      }
-      System.out.println("");
-    }
-  }
+public class Main {
+	public static void main(String[] args) {
+		double a = 1;
+		double b = 1;
+        double c;
+        double result;
+		
+		for (int i = 3; i <= 20; i ++) {
+			c = a + b;
+            result = c / b;
+            String resultS = String.format("%.9f", result);
+            
+            System.out.println((int)c + "/" + (int)b + " = " + resultS);
+            
+            a = b;
+            b = c;
+		}
+	}
 }
 ```
+<img width="1628" height="411" alt="image" src="https://github.com/user-attachments/assets/71026245-3b91-4c3b-959b-2ebf63b76650" />
+
 
 ### Homework4
 ```Java
-public class Homework1{
-  public static void main(String []args){
-    int i, j;
-    for(i=0; i<10; i++) {
-      for(j=0; j<10; j++) {
-        System.out.print("#");
-      }
-      System.out.println("");
-    }
-  }
+public class Main {
+	public static void main(String[] args) {
+    
+		for (int i = 1; i <= 9; i++) {
+			for (int j = 1; j <= 9; j++) {
+				System.out.print(i + "*" + j + "=" + i*j + " ");
+			}
+            System.out.println();
+		}
+	}
 }
 ```
+<img width="1627" height="336" alt="image" src="https://github.com/user-attachments/assets/43dca2b3-666f-43b5-aff5-dbae41517753" />
 
 
 ### Homework5
@@ -120,16 +131,8 @@ public class Main {
 
 ### Homework1
 ```Java
-public class Homework1{
-  public static void main(String []args){
-    int i, j;
-    for(i=0; i<10; i++) {
-      for(j=0; j<10; j++) {
-        System.out.print("#");
-      }
-      System.out.println("");
-    }
-  }
+
+```
 }
 ```
 
