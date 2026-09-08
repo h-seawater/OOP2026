@@ -159,7 +159,7 @@ public class Main {
 <img width="1624" height="426" alt="image" src="https://github.com/user-attachments/assets/5cc28b3d-dd71-4463-a4bc-556263c75d69" />
 
 
-### Homework4
+### Homework7
 ```Java
 public class Main {
 	public static void main(String[] args) {
