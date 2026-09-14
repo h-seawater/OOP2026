@@ -6,6 +6,9 @@
 
 ---
 
+https://drive.google.com/open?id=1Axmj5sCgHwMKalN_4J5sSMNLaU7z30y2y-uXn6oQTjQ
+https://www.programiz.com/java-programming/online-compiler/
+
 <details>
 <summary>1주차 - 1~4</summary>
 	
@@ -169,7 +172,7 @@ public class Main {
 	}
 }
 ```
-<img width="1624" height="426" alt="image" src="https://github.com/user-attachments/assets/5cc28b3d-dd71-4463-a4bc-556263c75d69" />
+<img width="1534" height="606" alt="image" src="https://github.com/user-attachments/assets/6c539ee9-932d-49c7-b323-fb9ef9939988" />
 
 
 ### Homework7
@@ -177,15 +180,40 @@ public class Main {
 public class Main {
 	public static void main(String[] args) {
     
-		for (int i = 1; i <= 9; i++) {
-			for (int j = 1; j <= 9; j++) {
-				System.out.print(i + "*" + j + "=" + i*j + " ");
-			}
-            System.out.println();
-		}
+		int data[] = new int[20];
+        
+        for(int i=0; i<20; i++) {
+            data[i]=(int)(Math.random()*100);
+        }
+        for(int i=0; i<20; i++) {
+            System.out.print(data[i] + " ");
+        }
+        System.out.println();
+        
+        
+        for (int i = 0; i < 19; i++) {
+            int min = i;
+            
+			for (int j = i+1; j < 20; j++) {
+            	if (data[j] < data[min]) {
+                    min = j;
+                }
+            }
+            
+            int temp = data[i];
+            data[i] = data[min];
+            data[min] = temp;
+        }
+        
+        for (int i = 0; i < 20; i++) {
+            System.out.print(data[i] + " ");
+        }
+        System.out.println();
+        
 	}
 }
 ```
-<img width="1627" height="336" alt="image" src="https://github.com/user-attachments/assets/43dca2b3-666f-43b5-aff5-dbae41517753" />
+<img width="1534" height="606" alt="image" src="https://github.com/user-attachments/assets/056c1a1e-6299-47ed-b7ee-31797583bfe7" />
+
 
 </details>
