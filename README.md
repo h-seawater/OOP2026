@@ -172,7 +172,7 @@ public class Main {
 	}
 }
 ```
-<img width="1534" height="606" alt="image" src="https://github.com/user-attachments/assets/6c539ee9-932d-49c7-b323-fb9ef9939988" />
+<img width="1624" height="426" alt="스크린샷 2026-09-08 155352" src="https://github.com/user-attachments/assets/e7975215-33c5-4b80-9c51-ff0742290b8b" />
 
 
 ### Homework7
