@@ -209,11 +209,35 @@ public class Main {
             System.out.print(data[i] + " ");
         }
         System.out.println();
-        
 	}
 }
 ```
 <img width="1534" height="606" alt="image" src="https://github.com/user-attachments/assets/056c1a1e-6299-47ed-b7ee-31797583bfe7" />
 
+### Homework7
+```Java
+public class Main {
+	public static void main(String[] args) {
+	    
+		int score[][] = new int[30][6];
+        
+        for (int i = 0; i <= 29; i++) {
+        	for (int j = 0; j < 5; j++) {
+        		score[i][j] = (int)(Math.random() * 101);
+        	}
+        	score[i][0] = i+1;
+        	
+        	score[i][5] = score[i][1] + score[i][2] +score[i][3] +score[i][4];
+        }
+        for (int i = 0; i < 30; i++) {
+        	for (int j = 0; j < 5; j++) {
+        		System.out.print(score[i][j] + "\t");
+        	}
+        	System.out.println();
+        }
+	}
+}
+```
+<img width="1047" height="488" alt="image" src="https://github.com/user-attachments/assets/14f4bb6c-afcd-45c1-9872-1430dbb1e541" />
 
 </details>
