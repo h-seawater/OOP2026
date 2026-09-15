@@ -2,7 +2,8 @@
 
 ## 목차
 1. [1주차 - 1~4](#homework1)
-2. [2주차 - 5~12](#homework5)
+2. [2주차 - 5~8](#homework5)
+3. [3주차 - 9~12](#homework9)
 
 ---
 
@@ -125,7 +126,7 @@ public class Main {
 </details>
 
 <details>
-<summary>2주차 - 5~12</summary>
+<summary>2주차 - 5~9</summary>
 	
 ### Homework5
 ```Java
@@ -239,4 +240,65 @@ public class Main {
 ```
 <img width="1047" height="488" alt="image" src="https://github.com/user-attachments/assets/14f4bb6c-afcd-45c1-9872-1430dbb1e541" />
 
+</details>
+
+<details>
+<summary>3주차 - 9~12</summary>
+	
+### Homework9
+```Java
+package jihang;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.print("수 입력: ");
+		int num = scanner.nextInt();
+		int quot;
+		int[] result = new int[15];
+		int i = 0;
+		
+		while(true) {
+			quot = num / 2;
+			result[i] = num % 2;
+			i++; 
+			
+			num = quot;
+			
+			if (quot == 0) {
+				break;
+			}
+		}
+		
+		for (i = 0; i < 15; i++) {
+			System.out.print(result[14-i] + " ");
+		}
+		
+	}
+}
+
+
+```
+<img width="1176" height="616" alt="image" src="https://github.com/user-attachments/assets/60356526-0432-4566-a961-ac1b4b0e587b" />
+
+
+### Homework10
+```Java
+
+```
+그림
+
+### Homework11
+```Java
+
+```
+그림
+
+### Homework12
+```Java
+
+```
+그림
 </details>
