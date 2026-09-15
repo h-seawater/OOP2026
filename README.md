@@ -7,7 +7,6 @@
 ---
 
 https://drive.google.com/open?id=1Axmj5sCgHwMKalN_4J5sSMNLaU7z30y2y-uXn6oQTjQ
-https://www.programiz.com/java-programming/online-compiler/
 
 <details>
 <summary>1주차 - 1~4</summary>
