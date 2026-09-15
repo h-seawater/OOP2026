@@ -214,7 +214,7 @@ public class Main {
 ```
 <img width="1534" height="606" alt="image" src="https://github.com/user-attachments/assets/056c1a1e-6299-47ed-b7ee-31797583bfe7" />
 
-### Homework7
+### Homework8
 ```Java
 public class Main {
 	public static void main(String[] args) {
