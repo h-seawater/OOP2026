@@ -3,7 +3,7 @@
 ## 목차
 1. [1주차 - 1~4](#homework1)
 2. [2주차 - 5~8](#homework5)
-3. [3주차 - 9~12](#homework9)
+3. [3주차 - 9~11,13](#homework9)
 
 ---
 
@@ -243,7 +243,7 @@ public class Main {
 </details>
 
 <details>
-<summary>3주차 - 9~12</summary>
+<summary>3주차 - 9~11,13</summary>
 	
 ### Homework9
 ```Java
@@ -296,7 +296,7 @@ public class Main {
 ```
 그림
 
-### Homework12
+### Homework13
 ```Java
 
 ```
