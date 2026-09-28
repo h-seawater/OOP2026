@@ -286,9 +286,54 @@ public class Main {
 
 ### Homework10
 ```Java
+package hello;
+
+public class hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int array_count, max_value, bin_size, display_scale, hist_size;
+		if(args.length !=4)
+			return;
+		array_count = Integer.parseInt(args[0]);
+		max_value = Integer.parseInt(args[1]);
+		bin_size = Integer.parseInt(args[2]);
+		display_scale = Integer.parseInt(args[3]);
+		hist_size = max_value/bin_size;
+		
+		int[] arr = new int[array_count];
+		int[] hist = new int[hist_size];
+		for (int i=0; i<array_count; i++) {
+			arr[i] = (int) (Math.random()*max_value);
+		}
+		for (int i=0; i<array_count; i++) {
+			System.out.print(arr[i] + " ");  
+		}
+		System.out.println();  
+		
+		for (int i=0; i<array_count; i++) {
+			hist[arr[i]/bin_size]++;
+		}
+		for (int i=0; i<hist_size; i++) {
+			int start = i * bin_size;
+			int end = start + bin_size -1;
+			if (end > max_value-1) end = max_value -1;
+			System.out.printf("%3d~%-3d ", start, end);
+			
+			int stars = hist[i] / display_scale;
+			for (int j = 0; j < stars; j++) {
+				System.out.print("#");
+			}
+			System.out.println();
+		}
+		System.out.println();  
+	}
+}
+
 
 ```
-그림
+<img width="1412" height="893" alt="image" src="https://github.com/user-attachments/assets/35b05daa-8107-4f7d-bc3b-22941799969c" />
+
 
 ### Homework11
 ```Java
